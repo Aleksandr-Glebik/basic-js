@@ -28,9 +28,9 @@ function createDreamTeam(arr) {
     }
     // console.log(newArr.sort().join(''));
     return newArr.sort().join('')
-} else if (!Array.isArray(arr)) {
+  } else if (!Array.isArray(arr)) {
     return false
-}
+  }
 }
 
 module.exports = {
